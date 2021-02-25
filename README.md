@@ -1,4 +1,4 @@
-# SDL2-learning
+# SDL2 Learning
 Bá Lương - K65 UET  
 SDL2 learning from **lazyfoo.net**
 

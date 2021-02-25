@@ -6,20 +6,25 @@ Codeblock SDL2 project template.
 Compiler **64-bit.** <br>
 SDL2 library: **x86_64-w64-mingw32** <br>
 
-### Setup
+## Setup
 **Include header files:**
-  - SDL2
-  - SDL2_image
-  - SDL2_mixer
+- SDL2
+- SDL2_image
+- SDL2_mixer
 
 **Library files:** (/lib)
-  - SDL2
-  - SDL2_image
-  - SDL2_mixer
+- SDL2
+- SDL2_image
+- SDL2_mixer
 
 **Linker:** 
-  - -lmingw32 
-  - -lSDL2main 
-  - -lSDL2 
-  - -lSDL2_image 
-  - -lSDL2_mixer
+- -lmingw32 
+- -lSDL2main 
+- -lSDL2 
+- -lSDL2_image 
+- -lSDL2_mixer
+
+**Dll files:**
+- SDL2.dll
+- SDL2_image.đll
+- SDL2_mixer.dll

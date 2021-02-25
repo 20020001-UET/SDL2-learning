@@ -1,17 +1,18 @@
 # SDL2-learning
-Bá Lương - K65 UET
-
+Bá Lương - K65 UET  
 SDL2 learning from **lazyfoo.net**
 
-## Description
-Beginning Game Programming with SDL2.
-
-**Source**: [SDL2 Turtorials](https://lazyfoo.net/tutorials/SDL/index.php)
-
+## Introduction
+Beginning Game Programming with SDL2.  
+**Source**: [SDL2 Turtorials](https://lazyfoo.net/tutorials/SDL/index.php)  
 **SDL2 Wiki:** [SDL2 Wiki](https://wiki.libsdl.org/FrontPage)
 
+### Table of Contents
+**[Table of Lessons](#table-of-lessons)** <br>
+**[Projects](#projects)** <br>
+**[Notes](#notes)** <br>
 
-## Table of Contents
+## Table of Lessons
 **Lesson** | **Contents** | **Check**
 -------|----------|-------
 **Lesson 01** - Hello SDL | _In this tutorial we will be setting up the SDL library and creating our first window._ | 
@@ -70,3 +71,6 @@ Beginning Game Programming with SDL2.
 **Lesson 54** - Touches | _Here we'll be handling single touch input._ |
 **Lesson 55** - Multitouch | _Here we'll be handling multitouch events like pinches and rotation._
 
+## Projects
+
+## Notes

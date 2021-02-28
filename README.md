@@ -17,7 +17,7 @@ Beginning Game Programming with SDL2.
 -------|----------|-------
 **Lesson 01** - Hello SDL | _In this tutorial we will be setting up the SDL library and creating our first window._ | **done!**
 **Lesson 02** - Getting an Image on the Screen | _Now that we can get a window to appear, lets blit an image onto it._ | **done!**
-**Lesson 03** - Event Driven Programming | _Here we'll start handling user input by allowing the user to X out the window._ | *ongoing*
+**Lesson 03** - Event Driven Programming | _Here we'll start handling user input by allowing the user to X out the window._ | **done!**
 **Lesson 04** - Key Presses | _Here we'll learn to handle keyboard input._ |
 **Lesson 05** - Optimized Surface Loading and Soft Stretching | _Now that we know how to load and blit surfaces, it's time to make our blits faster. We'll also take a smaller image and stretch it to fit the screen._ |
 **Lesson 06** - Extension Libraries and Loading Other Image Formats | _Here we'll be using the SDL_image extension library to load png images._ |

@@ -4,7 +4,6 @@
 ### Table of contents
   [Introduction](#introduction)  
   [Files](#files)  
-  [Noted](#noted)  
   [Summary](#summary) 
   
 ## Introduction
@@ -16,7 +15,7 @@
 - **Assets:**
   - hello_world.bmp
 
-## Noted
+## Summary
 
 ### Main functions
 
@@ -66,6 +65,3 @@
     ```
     **SDL_BlitSurface _take a source surface and stamps a copy of it onto the destination surface_.**
   - **Noted:** _After drawing everything on the screen, we have to update the screen using **SDL_UpdateWindowSurface** in order to show that frame!_
-
-## Summary
-

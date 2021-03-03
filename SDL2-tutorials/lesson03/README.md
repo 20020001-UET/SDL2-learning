@@ -90,5 +90,5 @@ When you press a key, move the mouse, or touch a touch screen you put events ont
 - **[SDL_QUIT](http://wiki.libsdl.org/SDL_QuitEvent)** event:
   - The event when the **user Xs out the window.**
   - Set **the quit flag to true** in order to **quit the main loop.**
-  - So we can** exit the application.**
+  - So we can **exit the application.**
 

@@ -4,7 +4,6 @@
 ### Table of contents
   [Introduction](#introduction)  
   [Files](#files)  
-  [Noted](#noted)  
   [Summary](#summary) 
   
 ## Introduction
@@ -17,7 +16,7 @@
 - **Source files:**
   - lesson08.cpp
 
-## Noted
+## Summary
 
 ### 2D Accelerated Rendering
   **[SDL_render.h](http://wiki.libsdl.org/CategoryRender)** <br>
@@ -72,6 +71,3 @@
                         int           x, 
                         int           y)
     ```
-
-## Summary
-

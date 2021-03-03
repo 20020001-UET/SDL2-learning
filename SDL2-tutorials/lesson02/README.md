@@ -68,3 +68,4 @@
   - **Noted:** _After drawing everything on the screen, we have to update the screen using **SDL_UpdateWindowSurface** in order to show that frame!_
 
 ## Summary
+

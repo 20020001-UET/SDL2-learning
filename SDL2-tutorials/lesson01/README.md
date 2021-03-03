@@ -4,7 +4,6 @@
 ### Table of contents
   [Introduction](#introduction)  
   [Files](#files)  
-  [Noted](#noted)  
   [Summary](#summary) 
   
 ## Introduction
@@ -16,7 +15,7 @@
 - **Source files:** 
   - _lesson01.cpp_  
 
-## Noted
+## Summary
 
 ### At the top of the source file: 
 - **Include SDL**  
@@ -96,6 +95,3 @@ SDL requires this type of main so **it is compatible with multiple platforms.**
   ```C++
   void SDL_Quit(void)
   ```
-
-## Summary
-

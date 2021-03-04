@@ -106,5 +106,5 @@ Rather than **copy/paste loading code everytime,** **we're going to use a functi
 This event happens when ever you press a key on the keyboard.
 
 - Inside of the **SDL_Event** is an **SDL_KeyboardEvent** -> _**contains the information for the key event.**_  
-- Inside of that is a **[SDL Keysym](https://wiki.libsdl.org/SDL_Keysym)** -> _**contains the information about the key that was pressed.**_  
+- Inside of that is a **[SDL_Keysym](https://wiki.libsdl.org/SDL_Keysym)** -> _**contains the information about the key that was pressed.**_  
 - **Keysym** contains the **[SDL_Keycode](https://wiki.libsdl.org/SDL_Keycode)** -> _**identifies the key that was pressed.**_

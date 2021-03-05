@@ -7,8 +7,8 @@
   [Summary](#summary) 
   
 ## Introduction
-When rendering multiple images on the screen, having images with transparent backgrounds is usually necessary. 
-Fortunately SDL provides an easy way to do this using color keying. 
+When **rendering multiple images on the screen**, **having images with transparent backgrounds is usually necessary**. 
+Fortunately _**SDL provides an easy way to do this using color keying.**_ 
 
 ## Files
 - **Source files:**
@@ -52,14 +52,14 @@ class LTexture
         int mHeight;
 };
 ```
-LTexture is a class to make some things easier.
-- Imformation about the texture:
-  - width
-  - height
-  - SDL_Texture*
-- We're going to do in use a class to wrap and store the information about the texture.
-- Struture
-  - Constructor and destructor
+**LTexture is a class to make some things easier.**
+- **Imformation about the texture**:
+  - _width_
+  - _height_
+  - _SDL_Texture*_
+- We're going to do in **use a class** to **wrap and store the information about the texture**.
+- **Struture:**
+  - **Constructor and destructor**
     ```C+
     LTexture::LTexture()
     {
@@ -77,7 +77,7 @@ LTexture is a class to make some things easier.
     ```
     The constructor initializes variables and the destructor calls the deallocator which we'll cover later.
     
-  - A file loader
+  - **A file loader**
     ```C++
     bool LTexture::loadFromFile( std::string path )
     {
@@ -123,7 +123,7 @@ LTexture is a class to make some things easier.
     - After color keying the loaded surface, we create a texture from the loaded and color keyed surface.
     - If successed, we store the width/height of the texture and return whether the texture loaded successfully.
     
-  - A deallocator
+  - **A deallocator**
     ```C++
     void LTexture::free()
     {
@@ -139,7 +139,7 @@ LTexture is a class to make some things easier.
     ```
     - Simply checks if a texture exists, destroys it, and reinitializes the member variables.
     
-  - A renderer that takes in a position
+  - **A renderer that takes in a position**
     ```C++
     void LTexture::render( int x, int y )
     {
@@ -151,7 +151,7 @@ LTexture is a class to make some things easier.
     - **Here you see why we needed a wrapper class.**
     - When rendering a texture in a certain place, you need to specify a destination rectangle that sets the x/y position and width/height.
     
-  - Functions to get the texture's dimensions
+  - **Functions to get the texture's dimensions**
     ```C++
     int LTexture::getWidth()
     {
@@ -177,9 +177,9 @@ LTexture is a class to make some things easier.
                       int          flag,
                       Uint32       key)
   ```
-  - The first argument is the surface we want to color key.
-  - The second argument covers whether we want to enable color keying.
-  - The last argument is the pixel we want to color key with.
+  - The first argument is **the surface we want to color key.**
+  - The second argument **covers whether we want to enable color keying.**
+  - The last argument is **the pixel we want to color key with.**
 
 **[SDL_MapRGB](http://wiki.libsdl.org/SDL_MapRGB)**
 ```C++
@@ -188,7 +188,7 @@ Uint32 SDL_MapRGB(const SDL_PixelFormat* format,
                   Uint8                  g, 
                   Uint8                  b)
 ```
-- The most cross platform way to create a pixel from RGB color is with SDL_MapRGB.
-  - The first argument is the format we want the pixel in.
-  - The last three variables are the red, green and blue components for color you want to map.
+- The most cross platform way to **create a pixel from RGB color** is with **SDL_MapRGB**.
+  - The first argument is **the format we want the pixel in.**
+  - The last three variables are **the red, green and blue components for color you want to map.**
 - Here, we're mapping **cyan** which is **red 0, green 255, blue 255**.

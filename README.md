@@ -23,7 +23,7 @@ Beginning Game Programming with SDL2.
 **Lesson 06** - [Extension Libraries and Loading Other Image Formats](https://lazyfoo.net/tutorials/SDL/06_extension_libraries_and_loading_other_image_formats/index.php) | _Here we'll be using the SDL_image extension library to load png images._ | **done!**
 **Lesson 07** - [Texture Loading and Rendering](https://lazyfoo.net/tutorials/SDL/07_texture_loading_and_rendering/index.php) | _A big new feature in SDL 2.0 is hardware accelerated texture based 2D rendering. Here we'll be loading an image to render it using textures._ | **done!**
 **Lesson 08** - [Geometry Rendering](https://lazyfoo.net/tutorials/SDL/08_geometry_rendering/index.php) | _Another new feature in SDL 2.0 is hardware accelerated primitive rendering. Here we'll be using it to render some common shapes._ | **done!**
-**Lesson 09** - The Viewport | _SDL 2.0 also lets you control where you render on the screen using the viewport. We'll be using the viewport to create subscreens._ |
+**Lesson 09** - [The Viewport](https://lazyfoo.net/tutorials/SDL/09_the_viewport/index.php) | _SDL 2.0 also lets you control where you render on the screen using the viewport. We'll be using the viewport to create subscreens._ | **done!**
 **Lesson 10** - Color Keying | _Here we'll use color keying to give textures transparent backgrounds._ |
 **Lesson 11** - Clip Rendering and Sprite Sheets | _Using clip rendering, you can keep multiple images on one texture and render the part you need. We'll be using this to render individual sprites from a sprite sheet._ |
 **Lesson 12** - Color Modulation | _We'll be altering the color of rendered textures using color modulation._ |

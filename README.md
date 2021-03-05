@@ -72,5 +72,7 @@ Beginning Game Programming with SDL2.
 **Lesson 55** - Multitouch | _Here we'll be handling multitouch events like pinches and rotation._
 
 ## Projects
+### Pac-Man
+A Pac-Man clone. [Link to this Project Github here.](https://github.com/20020001-UET/Pac-Man)
 
 ## Notes

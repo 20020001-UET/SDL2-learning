@@ -7,8 +7,8 @@
   [Summary](#summary) 
   
 ## Introduction
-SDL_image library setup.
-Using SDL_image to load PNG image.
+SDL_image library setup. <br>
+Using SDL_image to load PNG image. <br>
 
 ## Files
 - **Source files:**

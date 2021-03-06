@@ -25,7 +25,7 @@ Beginning Game Programming with SDL2.
 **Lesson 08** - [Geometry Rendering](https://lazyfoo.net/tutorials/SDL/08_geometry_rendering/index.php) | _Another new feature in SDL 2.0 is hardware accelerated primitive rendering. Here we'll be using it to render some common shapes._ | **done!**
 **Lesson 09** - [The Viewport](https://lazyfoo.net/tutorials/SDL/09_the_viewport/index.php) | _SDL 2.0 also lets you control where you render on the screen using the viewport. We'll be using the viewport to create subscreens._ | **done!**
 **Lesson 10** - [Color Keying](https://lazyfoo.net/tutorials/SDL/10_color_keying/index.php) | _Here we'll use color keying to give textures transparent backgrounds._ | **done!**
-**Lesson 11** - Clip Rendering and Sprite Sheets | _Using clip rendering, you can keep multiple images on one texture and render the part you need. We'll be using this to render individual sprites from a sprite sheet._ |
+**Lesson 11** - [Clip Rendering and Sprite Sheets](https://lazyfoo.net/tutorials/SDL/11_clip_rendering_and_sprite_sheets/index.php) | _Using clip rendering, you can keep multiple images on one texture and render the part you need. We'll be using this to render individual sprites from a sprite sheet._ | **done!**
 **Lesson 12** - Color Modulation | _We'll be altering the color of rendered textures using color modulation._ |
 **Lesson 13** - Alpha Blending | _Here we'll be using SDL 2.0 new hardware accelerated alpha blending._ |
 **Lesson 14** - Animated Sprites and Vsync | _Here we'll be using a sequence of sprites to animate them._ |
